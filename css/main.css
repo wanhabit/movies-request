@@ -68,12 +68,12 @@
 .link-container {
   display: flex;
   justify-content: center;
-  padding-bottom: 90px;
+  padding-bottom: 100px;
 }
 
 .gridContainer {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 50px;
 }
 
@@ -112,7 +112,7 @@
 
 .telegram-contain {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .telegram-contain img {
@@ -154,7 +154,22 @@
   padding-bottom: 70px;
 }
 
-@media (max-width: 430px) {
+@media (min-width: 351px) and (max-width: 430px) {
+  .suggest-media {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .c-wan {
+    font-family: apple-regular;
+    font-size: 9px;
+  }
+
+  .gridContainer {
+    column-gap: 40px;
+  }
+
   .suggest-media1 {
     font-size: 15px;
   }
@@ -166,10 +181,42 @@
   .suggest-media2 {
     font-size: 15px;
   }
+}
+
+@media (max-width: 350px) {
+  .suggest-media {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .gridContainer {
+    column-gap: 30px;
+  }
+
+  .link {
+    padding: 15px 15px;
+    font-size: 23px;
+  }
+
+  .link img {
+    height: 80px;
+  }
 
   .c-wan {
-    font-size: 9px;
+    font-family: apple-regular;
+    font-size: 8px;
   }
-  
+  .suggest-media1 {
+    font-size: 14px;
+  }
+
+  .suggest-title {
+    font-size: 14px;
+  }
+
+  .suggest-media2 {
+    font-size: 14px;
+  } 
 }
 
