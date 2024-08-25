@@ -122,6 +122,17 @@
   margin-bottom: 10px;
 }
 
+.line-container {
+  text-align: center;
+}
+
+.line-middle {
+  display: inline-block;
+  height: 2px;
+  background-color: #f5f5f5;
+  width: 50%;
+}
+
 .telegram-contain {
   text-align: center;
   padding-top: 50px;
@@ -174,7 +185,8 @@
   }
 }
 
-@media (min-width: 351px) and (max-width: 440px) {
+
+@media (min-width: 400px) and (max-width: 440px) {
   .suggest-media {
     font-size: 15px;
     padding-left: 10px;
@@ -191,7 +203,7 @@
   }
 
   .suggest-media1 {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .suggest-title,
@@ -200,11 +212,26 @@
   }
 
   .suggest-media2 {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 350px) {
+@media (min-width: 356px) and (max-width: 400px) {
+  .suggest-title,
+  .suggest-title2 {
+    font-size: 13px;
+  }
+
+  .suggest-media1 {
+    font-size: 13px;
+  }
+
+  .suggest-media2 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 355px) {
   .suggest-media {
     font-size: 14px;
     padding-left: 10px;
@@ -229,16 +256,16 @@
     font-size: 8px;
   }
   .suggest-media1 {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   .suggest-title,
   .suggest-title2 {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   .suggest-media2 {
-    font-size: 14px;
+    font-size: 11px;
   } 
 }
 
